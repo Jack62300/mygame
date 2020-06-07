@@ -1,0 +1,213 @@
+<div class="content col-lg-8">
+						<!-- Post Area 2 -->
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="card">
+									<div class="card__content">
+										<ul class="posts posts--simple-list">
+                                        {% for newse in news %}
+											<li class="posts__item posts__item--category-1">
+												<figure class="posts__thumb">
+													<a href="#"><img src="assets/images/samples/post-img22-xs.jpg" alt=""></a>
+												</figure>
+												<div class="posts__inner">
+													<div class="posts__cat">
+														<span class="label posts__cat-label">{{ newse.categorie }}</span>
+													</div>
+													<h6 class="posts__title"><a href="#">{{ newse.title|upper }}</a></h6>
+													<time datetime="2016-08-23" class="posts__date">{{ newse.createdAt|date('d/m/Y') }}</time>
+												</div>
+												<div class="posts__excerpt posts__excerpt--space-sm">
+													{{ newse.content }}
+												</div>
+											</li>
+											
+											
+		
+										</ul>
+									</div>
+								</div>
+							</div>
+								</div>
+							</div>
+						</div>
+						<!-- Post Area 2 / End -->
+		
+						<!-- Main News Banner -->
+						<div class="main-news-banner main-news-banner--soccer-ball">
+							<div class="main-news-banner__inner">
+								<div class="posts posts--simple-list posts--simple-list--xlg">
+									<div class="posts__item posts__item--category-1">
+										<div class="posts__inner">
+											<div class="posts__cat">
+												<span class="label posts__cat-label">The Team</span>
+											</div>
+											<h6 class="posts__title"><a href="#">Today was unveiled the <span class="main-news-banner__highlight">New Football</span> for the league</a></h6>
+											<time datetime="2016-08-23" class="posts__date">August 23rd, 2016</time>
+											<div class="posts__excerpt">
+												Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore.
+											</div>
+											<div class="posts__more">
+												<a href="#" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+						<!-- Main News Banner / End -->
+		
+						<!-- Lates News -->
+						<div class="card card--clean">
+							<header class="card__header card__header--has-btn">
+								<h4>Latest News</h4>
+								<a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Posts</a>
+							</header>
+		
+							<div class="card__content">
+		
+								<!-- Post Area 4 -->
+								<div class="posts posts--cards post-grid row">
+		
+									<div class="post-grid__item col-sm-6">
+										<div class="posts__item posts__item--card posts__item--category-2 card">
+											<figure class="posts__thumb">
+												<div class="posts__cat">
+													<span class="label posts__cat-label">Injuries</span>
+												</div>
+												<a href="#"><img src="assets/images/samples/post-img1.jpg" alt=""></a>
+											</figure>
+											<div class="posts__inner card__content">
+												<a href="#" class="posts__cta"></a>
+												<time datetime="2016-08-23" class="posts__date">August 28th, 2018</time>
+												<h6 class="posts__title"><a href="#">Franklin Stevens has a knee fracture and is gonna be out</a></h6>
+											</div>
+											<footer class="posts__footer card__footer">
+												<div class="post-author">
+													<figure class="post-author__avatar">
+														<img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
+													</figure>
+													<div class="post-author__info">
+														<h4 class="post-author__name">James Spiegel</h4>
+													</div>
+												</div>
+												<ul class="post__meta meta">
+													<li class="meta__item meta__item--views">2369</li>
+													<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+													<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+												</ul>
+											</footer>
+										</div>
+									</div>
+									<div class="post-grid__item col-sm-6">
+										<div class="posts__item posts__item--card posts__item--category-1 card">
+											<figure class="posts__thumb">
+												<div class="posts__cat">
+													<span class="label posts__cat-label">The Team</span>
+												</div>
+												<a href="#"><img src="assets/images/soccer/samples/_soccer_post-img4.jpg" alt=""></a>
+											</figure>
+											<div class="posts__inner card__content">
+												<a href="#" class="posts__cta"></a>
+												<time datetime="2016-08-23" class="posts__date">August 28th, 2018</time>
+												<h6 class="posts__title"><a href="#">Jay Rorks is only 24 points away from breaking the record</a></h6>
+											</div>
+											<footer class="posts__footer card__footer">
+												<div class="post-author">
+													<figure class="post-author__avatar">
+														<img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
+													</figure>
+													<div class="post-author__info">
+														<h4 class="post-author__name">Jessica Hoops</h4>
+													</div>
+												</div>
+												<ul class="post__meta meta">
+													<li class="meta__item meta__item--views">2369</li>
+													<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+													<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+												</ul>
+											</footer>
+										</div>
+									</div>
+									<div class="post-grid__item col-sm-6">
+										<div class="posts__item posts__item--card posts__item--category-1 card">
+											<figure class="posts__thumb">
+												<div class="posts__cat">
+													<span class="label posts__cat-label">The Team</span>
+												</div>
+												<a href="#"><img src="assets/images/samples/post-img13.jpg" alt=""></a>
+											</figure>
+											<div class="posts__inner card__content">
+												<a href="#" class="posts__cta"></a>
+												<time datetime="2016-08-23" class="posts__date">August 28th, 2018</time>
+												<h6 class="posts__title"><a href="#">The team is starting a new power breakfast regimen</a></h6>
+											</div>
+											<footer class="posts__footer card__footer">
+												<div class="post-author">
+													<figure class="post-author__avatar">
+														<img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
+													</figure>
+													<div class="post-author__info">
+														<h4 class="post-author__name">James Spiegel</h4>
+													</div>
+												</div>
+												<ul class="post__meta meta">
+													<li class="meta__item meta__item--views">2369</li>
+													<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+													<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+												</ul>
+											</footer>
+										</div>
+									</div>
+									<div class="post-grid__item col-sm-6">
+										<div class="posts__item posts__item--card posts__item--category-1 card">
+											<figure class="posts__thumb">
+												<div class="posts__cat">
+													<span class="label posts__cat-label">The Team</span>
+												</div>
+												<a href="#"><img src="assets/images/samples/post-img2.jpg" alt=""></a>
+											</figure>
+											<div class="posts__inner card__content">
+												<a href="#" class="posts__cta"></a>
+												<time datetime="2016-08-23" class="posts__date">August 28th, 2018</time>
+												<h6 class="posts__title"><a href="#">Cheerleader tryouts will start next Friday at 5pm</a></h6>
+											</div>
+											<footer class="posts__footer card__footer">
+												<div class="post-author">
+													<figure class="post-author__avatar">
+														<img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
+													</figure>
+													<div class="post-author__info">
+														<h4 class="post-author__name">James Spiegel</h4>
+													</div>
+												</div>
+												<ul class="post__meta meta">
+													<li class="meta__item meta__item--views">2369</li>
+													<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+													<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+												</ul>
+											</footer>
+										</div>
+									</div>
+		
+								</div>
+								<!-- Post Area 4 / End -->
+							</div>
+						</div>
+						<!-- Lates News / End -->
+		
+						<!-- Post Pagination -->
+						<nav class="post-pagination" aria-label="Blog navigation">
+							<ul class="pagination pagination--condensed pagination--lg justify-content-center">
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><span class="page-link">...</span></li>
+								<li class="page-item"><a class="page-link" href="#">16</a></li>
+							</ul>
+						</nav>
+						<!-- Post Pagination / End -->
+		
+		
+					</div>
